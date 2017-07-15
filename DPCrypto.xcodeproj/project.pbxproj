@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C2213FE1CD9D4F2005EAC8B /* DPCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2213FC1CD9D4F2005EAC8B /* DPCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2213FF1CD9D4F2005EAC8B /* DPCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2213FD1CD9D4F2005EAC8B /* DPCrypto.m */; };
+		1C29C9021CB3A0E1006E4700 /* AES.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E01CB3A0E1006E4700 /* AES.c */; };
+		1C29C9031CB3A0E1006E4700 /* AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8E11CB3A0E1006E4700 /* AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C9041CB3A0E1006E4700 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8E41CB3A0E1006E4700 /* bn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C9051CB3A0E1006E4700 /* bn_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E51CB3A0E1006E4700 /* bn_add.c */; };
+		1C29C9061CB3A0E1006E4700 /* bn_asm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E61CB3A0E1006E4700 /* bn_asm.c */; };
+		1C29C9071CB3A0E1006E4700 /* bn_ctx.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E71CB3A0E1006E4700 /* bn_ctx.c */; };
+		1C29C9081CB3A0E1006E4700 /* bn_div.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E81CB3A0E1006E4700 /* bn_div.c */; };
+		1C29C9091CB3A0E1006E4700 /* bn_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E91CB3A0E1006E4700 /* bn_exp.c */; };
+		1C29C90A1CB3A0E1006E4700 /* bn_exp2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EA1CB3A0E1006E4700 /* bn_exp2.c */; };
+		1C29C90B1CB3A0E1006E4700 /* bn_gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EB1CB3A0E1006E4700 /* bn_gcd.c */; };
+		1C29C90C1CB3A0E1006E4700 /* bn_lcl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8EC1CB3A0E1006E4700 /* bn_lcl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C90D1CB3A0E1006E4700 /* bn_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8ED1CB3A0E1006E4700 /* bn_lib.c */; };
+		1C29C90E1CB3A0E1006E4700 /* bn_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EE1CB3A0E1006E4700 /* bn_mod.c */; };
+		1C29C90F1CB3A0E1006E4700 /* bn_mont.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EF1CB3A0E1006E4700 /* bn_mont.c */; };
+		1C29C9101CB3A0E1006E4700 /* bn_mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F01CB3A0E1006E4700 /* bn_mul.c */; };
+		1C29C9111CB3A0E1006E4700 /* bn_prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F11CB3A0E1006E4700 /* bn_prime.c */; };
+		1C29C9121CB3A0E1006E4700 /* bn_prime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F21CB3A0E1006E4700 /* bn_prime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C9131CB3A0E1006E4700 /* bn_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F31CB3A0E1006E4700 /* bn_rand.c */; };
+		1C29C9141CB3A0E1006E4700 /* bn_recp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F41CB3A0E1006E4700 /* bn_recp.c */; };
+		1C29C9151CB3A0E1006E4700 /* bn_shift.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F51CB3A0E1006E4700 /* bn_shift.c */; };
+		1C29C9161CB3A0E1006E4700 /* bn_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F61CB3A0E1006E4700 /* bn_sqr.c */; };
+		1C29C9171CB3A0E1006E4700 /* bn_word.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F71CB3A0E1006E4700 /* bn_word.c */; };
+		1C29C9181CB3A0E1006E4700 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F81CB3A0E1006E4700 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C9191CB3A0E1006E4700 /* osconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F91CB3A0E1006E4700 /* osconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C91A1CB3A0E1006E4700 /* Random.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FA1CB3A0E1006E4700 /* Random.c */; };
+		1C29C91B1CB3A0E1006E4700 /* Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FB1CB3A0E1006E4700 /* Random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C91C1CB3A0E1006E4700 /* RSA.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FC1CB3A0E1006E4700 /* RSA.c */; };
+		1C29C91D1CB3A0E1006E4700 /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FD1CB3A0E1006E4700 /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C91E1CB3A0E1006E4700 /* RSActx.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FE1CB3A0E1006E4700 /* RSActx.c */; };
+		1C29C91F1CB3A0E1006E4700 /* RSActx.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FF1CB3A0E1006E4700 /* RSActx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29C9201CB3A0E1006E4700 /* RSAlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C9001CB3A0E1006E4700 /* RSAlib.c */; };
+		1C29C9211CB3A0E1006E4700 /* RSAlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C9011CB3A0E1006E4700 /* RSAlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6657D1DA8DF2F00BEB2D8 /* bn_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8ED1CB3A0E1006E4700 /* bn_lib.c */; };
+		1CA6657E1DA8DF2F00BEB2D8 /* AES.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E01CB3A0E1006E4700 /* AES.c */; };
+		1CA6657F1DA8DF2F00BEB2D8 /* bn_recp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F41CB3A0E1006E4700 /* bn_recp.c */; };
+		1CA665801DA8DF2F00BEB2D8 /* DPCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2213FD1CD9D4F2005EAC8B /* DPCrypto.m */; };
+		1CA665811DA8DF2F00BEB2D8 /* bn_mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F01CB3A0E1006E4700 /* bn_mul.c */; };
+		1CA665821DA8DF2F00BEB2D8 /* Random.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FA1CB3A0E1006E4700 /* Random.c */; };
+		1CA665831DA8DF2F00BEB2D8 /* RSActx.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FE1CB3A0E1006E4700 /* RSActx.c */; };
+		1CA665841DA8DF2F00BEB2D8 /* bn_exp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E91CB3A0E1006E4700 /* bn_exp.c */; };
+		1CA665851DA8DF2F00BEB2D8 /* bn_exp2.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EA1CB3A0E1006E4700 /* bn_exp2.c */; };
+		1CA665861DA8DF2F00BEB2D8 /* bn_sqr.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F61CB3A0E1006E4700 /* bn_sqr.c */; };
+		1CA665871DA8DF2F00BEB2D8 /* bn_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E51CB3A0E1006E4700 /* bn_add.c */; };
+		1CA665881DA8DF2F00BEB2D8 /* bn_asm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E61CB3A0E1006E4700 /* bn_asm.c */; };
+		1CA665891DA8DF2F00BEB2D8 /* bn_shift.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F51CB3A0E1006E4700 /* bn_shift.c */; };
+		1CA6658A1DA8DF2F00BEB2D8 /* RSAlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C9001CB3A0E1006E4700 /* RSAlib.c */; };
+		1CA6658B1DA8DF2F00BEB2D8 /* bn_mod.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EE1CB3A0E1006E4700 /* bn_mod.c */; };
+		1CA6658C1DA8DF2F00BEB2D8 /* bn_word.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F71CB3A0E1006E4700 /* bn_word.c */; };
+		1CA6658D1DA8DF2F00BEB2D8 /* bn_mont.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EF1CB3A0E1006E4700 /* bn_mont.c */; };
+		1CA6658E1DA8DF2F00BEB2D8 /* bn_ctx.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E71CB3A0E1006E4700 /* bn_ctx.c */; };
+		1CA6658F1DA8DF2F00BEB2D8 /* bn_gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8EB1CB3A0E1006E4700 /* bn_gcd.c */; };
+		1CA665901DA8DF2F00BEB2D8 /* RSA.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8FC1CB3A0E1006E4700 /* RSA.c */; };
+		1CA665911DA8DF2F00BEB2D8 /* bn_prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F11CB3A0E1006E4700 /* bn_prime.c */; };
+		1CA665921DA8DF2F00BEB2D8 /* bn_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8F31CB3A0E1006E4700 /* bn_rand.c */; };
+		1CA665931DA8DF2F00BEB2D8 /* bn_div.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C29C8E81CB3A0E1006E4700 /* bn_div.c */; };
+		1CA665971DA8DF2F00BEB2D8 /* RSActx.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FF1CB3A0E1006E4700 /* RSActx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665981DA8DF2F00BEB2D8 /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FD1CB3A0E1006E4700 /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665991DA8DF2F00BEB2D8 /* osconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F91CB3A0E1006E4700 /* osconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659A1DA8DF2F00BEB2D8 /* bn_prime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F21CB3A0E1006E4700 /* bn_prime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659B1DA8DF2F00BEB2D8 /* bn_lcl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8EC1CB3A0E1006E4700 /* bn_lcl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659C1DA8DF2F00BEB2D8 /* RSAlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C9011CB3A0E1006E4700 /* RSAlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659D1DA8DF2F00BEB2D8 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8E41CB3A0E1006E4700 /* bn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659E1DA8DF2F00BEB2D8 /* DPCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2213FC1CD9D4F2005EAC8B /* DPCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA6659F1DA8DF2F00BEB2D8 /* Random.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8FB1CB3A0E1006E4700 /* Random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665A01DA8DF2F00BEB2D8 /* AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8E11CB3A0E1006E4700 /* AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665A11DA8DF2F00BEB2D8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C29C8F81CB3A0E1006E4700 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA665A81DA8DF9F00BEB2D8 /* DPCrypto_Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CA665A71DA8DF9F00BEB2D8 /* DPCrypto_Mac-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C2213FC1CD9D4F2005EAC8B /* DPCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCrypto.h; sourceTree = "<group>"; };
+		1C2213FD1CD9D4F2005EAC8B /* DPCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCrypto.m; sourceTree = "<group>"; };
+		1C29C89F1CB39B7B006E4700 /* DPCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C29C8A11CB39B7B006E4700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C29C8E01CB3A0E1006E4700 /* AES.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AES.c; sourceTree = "<group>"; };
+		1C29C8E11CB3A0E1006E4700 /* AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		1C29C8E41CB3A0E1006E4700 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		1C29C8E51CB3A0E1006E4700 /* bn_add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_add.c; sourceTree = "<group>"; };
+		1C29C8E61CB3A0E1006E4700 /* bn_asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_asm.c; sourceTree = "<group>"; };
+		1C29C8E71CB3A0E1006E4700 /* bn_ctx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_ctx.c; sourceTree = "<group>"; };
+		1C29C8E81CB3A0E1006E4700 /* bn_div.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_div.c; sourceTree = "<group>"; };
+		1C29C8E91CB3A0E1006E4700 /* bn_exp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_exp.c; sourceTree = "<group>"; };
+		1C29C8EA1CB3A0E1006E4700 /* bn_exp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_exp2.c; sourceTree = "<group>"; };
+		1C29C8EB1CB3A0E1006E4700 /* bn_gcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_gcd.c; sourceTree = "<group>"; };
+		1C29C8EC1CB3A0E1006E4700 /* bn_lcl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn_lcl.h; sourceTree = "<group>"; };
+		1C29C8ED1CB3A0E1006E4700 /* bn_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_lib.c; sourceTree = "<group>"; };
+		1C29C8EE1CB3A0E1006E4700 /* bn_mod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_mod.c; sourceTree = "<group>"; };
+		1C29C8EF1CB3A0E1006E4700 /* bn_mont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_mont.c; sourceTree = "<group>"; };
+		1C29C8F01CB3A0E1006E4700 /* bn_mul.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_mul.c; sourceTree = "<group>"; };
+		1C29C8F11CB3A0E1006E4700 /* bn_prime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_prime.c; sourceTree = "<group>"; };
+		1C29C8F21CB3A0E1006E4700 /* bn_prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn_prime.h; sourceTree = "<group>"; };
+		1C29C8F31CB3A0E1006E4700 /* bn_rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_rand.c; sourceTree = "<group>"; };
+		1C29C8F41CB3A0E1006E4700 /* bn_recp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_recp.c; sourceTree = "<group>"; };
+		1C29C8F51CB3A0E1006E4700 /* bn_shift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_shift.c; sourceTree = "<group>"; };
+		1C29C8F61CB3A0E1006E4700 /* bn_sqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_sqr.c; sourceTree = "<group>"; };
+		1C29C8F71CB3A0E1006E4700 /* bn_word.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bn_word.c; sourceTree = "<group>"; };
+		1C29C8F81CB3A0E1006E4700 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		1C29C8F91CB3A0E1006E4700 /* osconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osconfig.h; sourceTree = "<group>"; };
+		1C29C8FA1CB3A0E1006E4700 /* Random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Random.c; sourceTree = "<group>"; };
+		1C29C8FB1CB3A0E1006E4700 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		1C29C8FC1CB3A0E1006E4700 /* RSA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RSA.c; sourceTree = "<group>"; };
+		1C29C8FD1CB3A0E1006E4700 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		1C29C8FE1CB3A0E1006E4700 /* RSActx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RSActx.c; sourceTree = "<group>"; };
+		1C29C8FF1CB3A0E1006E4700 /* RSActx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActx.h; sourceTree = "<group>"; };
+		1C29C9001CB3A0E1006E4700 /* RSAlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RSAlib.c; sourceTree = "<group>"; };
+		1C29C9011CB3A0E1006E4700 /* RSAlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAlib.h; sourceTree = "<group>"; };
+		1CA665A51DA8DF2F00BEB2D8 /* DPCrypto_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPCrypto_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA665A71DA8DF9F00BEB2D8 /* DPCrypto_Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DPCrypto_Mac-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C29C89C1CB39B7B006E4700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665941DA8DF2F00BEB2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C29C8861CB39A31006E4700 = {
+			isa = PBXGroup;
+			children = (
+				1C29C8A01CB39B7B006E4700 /* DPCrypto */,
+				1C29C8901CB39A31006E4700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C29C8901CB39A31006E4700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C29C89F1CB39B7B006E4700 /* DPCrypto.framework */,
+				1CA665A51DA8DF2F00BEB2D8 /* DPCrypto_Mac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C29C8A01CB39B7B006E4700 /* DPCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				1C29C8DF1CB3A0E1006E4700 /* AES */,
+				1C29C8E21CB3A0E1006E4700 /* RSA */,
+				1C29C8A11CB39B7B006E4700 /* Info.plist */,
+				1CA665A71DA8DF9F00BEB2D8 /* DPCrypto_Mac-Info.plist */,
+				1C2213FC1CD9D4F2005EAC8B /* DPCrypto.h */,
+				1C2213FD1CD9D4F2005EAC8B /* DPCrypto.m */,
+			);
+			path = DPCrypto;
+			sourceTree = "<group>";
+		};
+		1C29C8DF1CB3A0E1006E4700 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				1C29C8E01CB3A0E1006E4700 /* AES.c */,
+				1C29C8E11CB3A0E1006E4700 /* AES.h */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		1C29C8E21CB3A0E1006E4700 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				1C29C8E31CB3A0E1006E4700 /* bn */,
+				1C29C8FA1CB3A0E1006E4700 /* Random.c */,
+				1C29C8FB1CB3A0E1006E4700 /* Random.h */,
+				1C29C8FC1CB3A0E1006E4700 /* RSA.c */,
+				1C29C8FD1CB3A0E1006E4700 /* RSA.h */,
+				1C29C8FE1CB3A0E1006E4700 /* RSActx.c */,
+				1C29C8FF1CB3A0E1006E4700 /* RSActx.h */,
+				1C29C9001CB3A0E1006E4700 /* RSAlib.c */,
+				1C29C9011CB3A0E1006E4700 /* RSAlib.h */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		1C29C8E31CB3A0E1006E4700 /* bn */ = {
+			isa = PBXGroup;
+			children = (
+				1C29C8E41CB3A0E1006E4700 /* bn.h */,
+				1C29C8E51CB3A0E1006E4700 /* bn_add.c */,
+				1C29C8E61CB3A0E1006E4700 /* bn_asm.c */,
+				1C29C8E71CB3A0E1006E4700 /* bn_ctx.c */,
+				1C29C8E81CB3A0E1006E4700 /* bn_div.c */,
+				1C29C8E91CB3A0E1006E4700 /* bn_exp.c */,
+				1C29C8EA1CB3A0E1006E4700 /* bn_exp2.c */,
+				1C29C8EB1CB3A0E1006E4700 /* bn_gcd.c */,
+				1C29C8EC1CB3A0E1006E4700 /* bn_lcl.h */,
+				1C29C8ED1CB3A0E1006E4700 /* bn_lib.c */,
+				1C29C8EE1CB3A0E1006E4700 /* bn_mod.c */,
+				1C29C8EF1CB3A0E1006E4700 /* bn_mont.c */,
+				1C29C8F01CB3A0E1006E4700 /* bn_mul.c */,
+				1C29C8F11CB3A0E1006E4700 /* bn_prime.c */,
+				1C29C8F21CB3A0E1006E4700 /* bn_prime.h */,
+				1C29C8F31CB3A0E1006E4700 /* bn_rand.c */,
+				1C29C8F41CB3A0E1006E4700 /* bn_recp.c */,
+				1C29C8F51CB3A0E1006E4700 /* bn_shift.c */,
+				1C29C8F61CB3A0E1006E4700 /* bn_sqr.c */,
+				1C29C8F71CB3A0E1006E4700 /* bn_word.c */,
+				1C29C8F81CB3A0E1006E4700 /* config.h */,
+				1C29C8F91CB3A0E1006E4700 /* osconfig.h */,
+			);
+			path = bn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C29C8DE1CB3A0CF006E4700 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C29C91F1CB3A0E1006E4700 /* RSActx.h in Headers */,
+				1C29C91D1CB3A0E1006E4700 /* RSA.h in Headers */,
+				1C29C9191CB3A0E1006E4700 /* osconfig.h in Headers */,
+				1C29C9121CB3A0E1006E4700 /* bn_prime.h in Headers */,
+				1C29C90C1CB3A0E1006E4700 /* bn_lcl.h in Headers */,
+				1C29C9211CB3A0E1006E4700 /* RSAlib.h in Headers */,
+				1C29C9041CB3A0E1006E4700 /* bn.h in Headers */,
+				1C2213FE1CD9D4F2005EAC8B /* DPCrypto.h in Headers */,
+				1C29C91B1CB3A0E1006E4700 /* Random.h in Headers */,
+				1C29C9031CB3A0E1006E4700 /* AES.h in Headers */,
+				1C29C9181CB3A0E1006E4700 /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665961DA8DF2F00BEB2D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA665971DA8DF2F00BEB2D8 /* RSActx.h in Headers */,
+				1CA665981DA8DF2F00BEB2D8 /* RSA.h in Headers */,
+				1CA665991DA8DF2F00BEB2D8 /* osconfig.h in Headers */,
+				1CA6659A1DA8DF2F00BEB2D8 /* bn_prime.h in Headers */,
+				1CA6659B1DA8DF2F00BEB2D8 /* bn_lcl.h in Headers */,
+				1CA6659C1DA8DF2F00BEB2D8 /* RSAlib.h in Headers */,
+				1CA6659D1DA8DF2F00BEB2D8 /* bn.h in Headers */,
+				1CA6659E1DA8DF2F00BEB2D8 /* DPCrypto.h in Headers */,
+				1CA6659F1DA8DF2F00BEB2D8 /* Random.h in Headers */,
+				1CA665A01DA8DF2F00BEB2D8 /* AES.h in Headers */,
+				1CA665A11DA8DF2F00BEB2D8 /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C29C89E1CB39B7B006E4700 /* DPCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C29C8A21CB39B7B006E4700 /* Build configuration list for PBXNativeTarget "DPCrypto" */;
+			buildPhases = (
+				1C29C89B1CB39B7B006E4700 /* Sources */,
+				1C29C89C1CB39B7B006E4700 /* Frameworks */,
+				1C29C89D1CB39B7B006E4700 /* Resources */,
+				1C29C8DE1CB3A0CF006E4700 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPCrypto;
+			productName = DPCrypto;
+			productReference = 1C29C89F1CB39B7B006E4700 /* DPCrypto.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1CA6657B1DA8DF2F00BEB2D8 /* DPCrypto_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA665A21DA8DF2F00BEB2D8 /* Build configuration list for PBXNativeTarget "DPCrypto_Mac" */;
+			buildPhases = (
+				1CA6657C1DA8DF2F00BEB2D8 /* Sources */,
+				1CA665941DA8DF2F00BEB2D8 /* Frameworks */,
+				1CA665951DA8DF2F00BEB2D8 /* Resources */,
+				1CA665961DA8DF2F00BEB2D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPCrypto_Mac;
+			productName = DPCrypto;
+			productReference = 1CA665A51DA8DF2F00BEB2D8 /* DPCrypto_Mac.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C29C8871CB39A31006E4700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Digital Power";
+				TargetAttributes = {
+					1C29C89E1CB39B7B006E4700 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1C29C88A1CB39A31006E4700 /* Build configuration list for PBXProject "DPCrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C29C8861CB39A31006E4700;
+			productRefGroup = 1C29C8901CB39A31006E4700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C29C89E1CB39B7B006E4700 /* DPCrypto */,
+				1CA6657B1DA8DF2F00BEB2D8 /* DPCrypto_Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C29C89D1CB39B7B006E4700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA665A81DA8DF9F00BEB2D8 /* DPCrypto_Mac-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA665951DA8DF2F00BEB2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C29C89B1CB39B7B006E4700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C29C90D1CB3A0E1006E4700 /* bn_lib.c in Sources */,
+				1C29C9021CB3A0E1006E4700 /* AES.c in Sources */,
+				1C29C9141CB3A0E1006E4700 /* bn_recp.c in Sources */,
+				1C2213FF1CD9D4F2005EAC8B /* DPCrypto.m in Sources */,
+				1C29C9101CB3A0E1006E4700 /* bn_mul.c in Sources */,
+				1C29C91A1CB3A0E1006E4700 /* Random.c in Sources */,
+				1C29C91E1CB3A0E1006E4700 /* RSActx.c in Sources */,
+				1C29C9091CB3A0E1006E4700 /* bn_exp.c in Sources */,
+				1C29C90A1CB3A0E1006E4700 /* bn_exp2.c in Sources */,
+				1C29C9161CB3A0E1006E4700 /* bn_sqr.c in Sources */,
+				1C29C9051CB3A0E1006E4700 /* bn_add.c in Sources */,
+				1C29C9061CB3A0E1006E4700 /* bn_asm.c in Sources */,
+				1C29C9151CB3A0E1006E4700 /* bn_shift.c in Sources */,
+				1C29C9201CB3A0E1006E4700 /* RSAlib.c in Sources */,
+				1C29C90E1CB3A0E1006E4700 /* bn_mod.c in Sources */,
+				1C29C9171CB3A0E1006E4700 /* bn_word.c in Sources */,
+				1C29C90F1CB3A0E1006E4700 /* bn_mont.c in Sources */,
+				1C29C9071CB3A0E1006E4700 /* bn_ctx.c in Sources */,
+				1C29C90B1CB3A0E1006E4700 /* bn_gcd.c in Sources */,
+				1C29C91C1CB3A0E1006E4700 /* RSA.c in Sources */,
+				1C29C9111CB3A0E1006E4700 /* bn_prime.c in Sources */,
+				1C29C9131CB3A0E1006E4700 /* bn_rand.c in Sources */,
+				1C29C9081CB3A0E1006E4700 /* bn_div.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA6657C1DA8DF2F00BEB2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA6657D1DA8DF2F00BEB2D8 /* bn_lib.c in Sources */,
+				1CA6657E1DA8DF2F00BEB2D8 /* AES.c in Sources */,
+				1CA6657F1DA8DF2F00BEB2D8 /* bn_recp.c in Sources */,
+				1CA665801DA8DF2F00BEB2D8 /* DPCrypto.m in Sources */,
+				1CA665811DA8DF2F00BEB2D8 /* bn_mul.c in Sources */,
+				1CA665821DA8DF2F00BEB2D8 /* Random.c in Sources */,
+				1CA665831DA8DF2F00BEB2D8 /* RSActx.c in Sources */,
+				1CA665841DA8DF2F00BEB2D8 /* bn_exp.c in Sources */,
+				1CA665851DA8DF2F00BEB2D8 /* bn_exp2.c in Sources */,
+				1CA665861DA8DF2F00BEB2D8 /* bn_sqr.c in Sources */,
+				1CA665871DA8DF2F00BEB2D8 /* bn_add.c in Sources */,
+				1CA665881DA8DF2F00BEB2D8 /* bn_asm.c in Sources */,
+				1CA665891DA8DF2F00BEB2D8 /* bn_shift.c in Sources */,
+				1CA6658A1DA8DF2F00BEB2D8 /* RSAlib.c in Sources */,
+				1CA6658B1DA8DF2F00BEB2D8 /* bn_mod.c in Sources */,
+				1CA6658C1DA8DF2F00BEB2D8 /* bn_word.c in Sources */,
+				1CA6658D1DA8DF2F00BEB2D8 /* bn_mont.c in Sources */,
+				1CA6658E1DA8DF2F00BEB2D8 /* bn_ctx.c in Sources */,
+				1CA6658F1DA8DF2F00BEB2D8 /* bn_gcd.c in Sources */,
+				1CA665901DA8DF2F00BEB2D8 /* RSA.c in Sources */,
+				1CA665911DA8DF2F00BEB2D8 /* bn_prime.c in Sources */,
+				1CA665921DA8DF2F00BEB2D8 /* bn_rand.c in Sources */,
+				1CA665931DA8DF2F00BEB2D8 /* bn_div.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C29C8961CB39A31006E4700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		1C29C8971CB39A31006E4700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		1C29C8A31CB39B7B006E4700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = DPCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1C29C8A41CB39B7B006E4700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = DPCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1CA665A31DA8DF2F00BEB2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = "DPCrypto/DPCrypto_Mac-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				STRINGS_FILE_OUTPUT_ENCODING = binary;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1CA665A41DA8DF2F00BEB2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = "DPCrypto/DPCrypto_Mac-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpower.DPCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				STRINGS_FILE_OUTPUT_ENCODING = binary;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C29C88A1CB39A31006E4700 /* Build configuration list for PBXProject "DPCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C29C8961CB39A31006E4700 /* Debug */,
+				1C29C8971CB39A31006E4700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C29C8A21CB39B7B006E4700 /* Build configuration list for PBXNativeTarget "DPCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C29C8A31CB39B7B006E4700 /* Debug */,
+				1C29C8A41CB39B7B006E4700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA665A21DA8DF2F00BEB2D8 /* Build configuration list for PBXNativeTarget "DPCrypto_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA665A31DA8DF2F00BEB2D8 /* Debug */,
+				1CA665A41DA8DF2F00BEB2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C29C8871CB39A31006E4700 /* Project object */;
+}
